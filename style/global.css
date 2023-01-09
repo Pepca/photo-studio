@@ -1,0 +1,76 @@
+@import './lib.css';
+@import './var.css';
+@import './components/header.css';
+@import './components/footer.css';
+
+body {
+  font-family: var(--primary-font-family);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--minimal-font-size);
+
+  background-color: hsl(var(--black-color-hsl));
+  color: hsl(var(--primary-font-yellow-color-hsl));
+}
+
+a {
+  display: block;
+
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+._container {
+  width: 100%;
+  height: 100%;
+
+  max-width: var(--container-max-width);
+
+  margin: 0 auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+.page-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+._page-title {
+  font-size: 48px;
+
+  text-align: center;
+}
+
+._button {
+  display: inline-block;
+
+  padding: 15px 30px;
+
+  font-size: 32px;
+  font-weight: var(--secondary-font-width);
+  color: hsl(var(--black-color-hsl));
+  background-color: hsl(var(--primary-yellow-color-hsl));
+
+  border-radius: var(--button-border-radius);
+}
+

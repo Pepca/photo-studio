@@ -1,0 +1,23 @@
+:root {
+  --base-default-color: 0, 0%;
+  --base-font-yellow-color: 32, 74%;
+  --base-primary-yellow-color: 47, 65%;
+
+  --white-color-hsl: var(--base-default-color), 100%;
+  --black-color-hsl: var(--base-default-color), 0%;
+
+  --primary-yellow-color-hsl: var(--base-primary-yellow-color), 55%;
+
+  --image-border-radius: 10px;
+  --button-border-radius: 20px;
+
+  --container-width: 1600px;
+  --container-padding: 15px;
+  --container-max-width: calc(var(--container-width) + (var(--container-padding) * 2));
+
+  --primary-font-yellow-color-hsl: var(--base-font-yellow-color), 79%;
+  --primary-font-family: 'Alegreya', serif;
+  --primary-font-weight: 400;
+  --secondary-font-width: 700;
+  --minimal-font-size: 24px;
+}
